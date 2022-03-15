@@ -43,7 +43,7 @@ export default {
     submitForm(form) {
       this.$refs[form].validate(valid => {
         const notice = this.$create(Notice, {
-          title: "社会你杨哥喊你来搬砖",
+          title: "hardy哥喊你来搬砖",
           message: valid ? "请求登录!" : "校验失败!",
           duration: 1000
         });

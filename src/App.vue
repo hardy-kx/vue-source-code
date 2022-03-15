@@ -4,8 +4,8 @@
           <CompCommunicate />
 <!--    <SlotsTest></SlotsTest>-->
     <!-- <Recursion></Recursion> -->
-    <!--<FormSample></FormSample>-->
-    <!--<Tree></Tree>-->
+    <FormSample></FormSample>
+    <Tree></Tree>
   </div>
 </template>
 
@@ -14,8 +14,8 @@
   import CompCommunicate from "./components/communicate";
   // import SlotsTest from "./components/slots";
   // import Recursion from "./components/recursion";
-  // import FormSample from "./components/form";
-  // import Tree from "./components/tree";
+  import FormSample from "./components/form";
+  import Tree from "./components/tree";
 
   export default {
     name: "app",
@@ -24,8 +24,8 @@
       CompCommunicate,
       // SlotsTest,
       // Recursion,
-      // FormSample,
-      // Tree
+      FormSample,
+      Tree
     }
   };
 </script>
