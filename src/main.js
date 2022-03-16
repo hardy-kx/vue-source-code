@@ -4,6 +4,12 @@ import create from "@/utils/create";
 
 Vue.config.productionTip = false;
 
+// import router from './router'
+import router from './krouter'
+
+// import store from './store'
+import store from './kstore'
+
 Vue.prototype.$dispatch = function(eventName, data) {
   let parent = this.$parent;
   // 查找父元素
@@ -57,5 +63,7 @@ Vue.prototype.$bus = new Bus();
 Vue.prototype.$create = create;
 
 new Vue({
+  router,
+  store,
   render: h => h(App)
 }).$mount("#app");
