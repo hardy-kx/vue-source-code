@@ -2,10 +2,10 @@
   <div id="app">
     <!--<HelloWorld msg="Welcome to Your Vue.js App"/>-->
     <!--<CompCommunicate />-->
-    <!--    <SlotsTest></SlotsTest>-->
-    <!-- <Recursion></Recursion> -->
-    <!--    <FormSample></FormSample>-->
-    <!--    <Tree></Tree>-->
+    <!--<SlotsTest></SlotsTest>-->
+    <!--<Recursion></Recursion> -->
+    <!--<FormSample></FormSample>-->
+    <!--<Tree></Tree>-->
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
